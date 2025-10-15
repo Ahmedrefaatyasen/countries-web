@@ -6,7 +6,7 @@ const Home = () => {
    
 
     return (
-        <section className='grid grid-cols-4 gap-8 p-8'>
+        <section className='mt-[3rem] grid grid-cols-1 sm:grid sm:grid-cols-4 gap-8 sm:p-8'>
             {countries.map((country,index)=>
             <div className='border border-gray-400 p-2 flex flex-col gap-2' key={index}>
                 <h2 className='text-[1.5rem] font-[600]'>{country.name.common}</h2>
